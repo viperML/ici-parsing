@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "20fd8cddcfaa504c2c4d3cd035b0fb0c79093b19"
+project_hash = "e5958c9d7088290a83bd70a89579fcbef381b77e"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -854,6 +854,12 @@ git-tree-sha1 = "874e8867b33a00e784c8a7e4b60afe9e037b74e1"
 uuid = "777ac1f9-54b0-4bf8-805c-2214025038e7"
 version = "1.1.0"
 
+[[deps.SingularSpectrumAnalysis]]
+deps = ["LinearAlgebra", "Random", "RecipesBase", "Requires", "Statistics", "TotalLeastSquares"]
+git-tree-sha1 = "7e5298c3ea95507588335936b732819845aaa2dc"
+uuid = "77f5812f-bd1f-5f6e-9b72-07b28d8bbbc3"
+version = "0.5.1"
+
 [[deps.SnoopPrecompile]]
 deps = ["Preferences"]
 git-tree-sha1 = "e760a70afdcd461cf01a575947738d359234665c"
@@ -965,6 +971,12 @@ version = "0.1.1"
 [[deps.Test]]
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[[deps.TotalLeastSquares]]
+deps = ["FillArrays", "LinearAlgebra", "Printf", "SparseArrays", "Statistics", "StatsBase"]
+git-tree-sha1 = "2c99a34f99696d69870626f230c0c34b043435dc"
+uuid = "028f657a-7ace-5159-a694-8cfd97933b0c"
+version = "1.7.6"
 
 [[deps.TranscodingStreams]]
 deps = ["Random", "Test"]
