@@ -1,2 +1,2 @@
 [Plots]
-default_backend = "plotlyjs"
+default_backend = "plotly"
