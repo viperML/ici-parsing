@@ -10,4 +10,4 @@ Para poder leer los notebooks hace falta la aplicación `nbviewer`, que represen
 Links:
 
 - Montecoche: https://nbviewer.org/github/viperML/ici-parsing/blob/v1.0/montecoche.ipynb
-- Grazalema: https://nbviewer.org/github/viperML/ici-parsing/blob/v1.0/grazalema.ipynb
+- Grazalema: https://nbviewer.org/github/viperML/ici-parsing/blob/v1.0/grazelema.ipynb
